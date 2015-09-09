@@ -1,5 +1,7 @@
 # vegalite-pojo
 
+An experiment: what does it look like when we use [jsonschema2pojo](http://www.jsonschema2pojo.org/) to generate Java Classes that map to the [vega-lite](https://github.com/uwdata/vega-lite) spec?
+
 ```java
 /**
  * Schema for Vega-lite specification
@@ -42,8 +44,6 @@ public class VegaLite {
     @JsonProperty("config")
     private Config config;
 ```
-
-An experiment: what does it look like when we use [jsonschema2pojo](http://www.jsonschema2pojo.org/) to generate Java Classes that map to the [vega-lite](https://github.com/uwdata/vega-lite) spec?
 
 ## Why?
 
